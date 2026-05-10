@@ -1,0 +1,12 @@
+<.form :let={f} for={@changeset} action={@action}>
+  <.input field={f[:name]} type="text" label="Name" />
+  <.input field={f[:description]} type="textarea" label="Description" />
+  <.input field={f[:source_language]} type="text" label="Source language" />
+  <.input field={f[:framework]} type="text" label="Framework" />
+  <.input field={f[:repository_url]} type="text" label="Repository url" />
+  <.input field={f[:status]} type="text" label="Status" />
+  <footer>
+    <.button variant="primary">Save Project</.button>
+    <.button :if={@return_to} href={@return_to}>Cancel</.button>
+  </footer>
+</.form>
