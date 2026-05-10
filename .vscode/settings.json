@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "[elixir]": {
+    "editor.defaultFormatter": "JakeBecker.elixir-ls"
+  },
+  "[heex]": {
+    "editor.defaultFormatter": "JakeBecker.elixir-ls"
+  },
+  "elixirLS.dialyzerEnabled": true,
+  "elixirLS.fetchDeps": true,
+  "elixirLS.suggestSpecs": true
+}
