@@ -1,0 +1,57 @@
+# Elixir / Erlang
+/_build/
+/cover/
+/deps/
+erl_crash.dump
+*.ez
+*.beam
+
+# Dialyzer / ElixirLS
+/.elixir_ls/
+*.plt
+*.plt.hash
+
+# Phoenix generated assets
+/assets/node_modules/
+/assets/.yarn/
+/assets/.pnp.*
+/priv/static/assets/
+/priv/static/cache_manifest.json
+
+# Logs
+/log/
+*.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Runtime / temporary files
+/tmp/
+/uploads/
+
+# Database / local dev
+*.sqlite
+*.sqlite3
+*.db
+
+# Docker local overrides
+docker-compose.override.yml
+
+# OS / editors
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# JetBrains
+.idea/
+
+# Test artifacts
+/screenshots/
+/playwright-report/
+/test-results/
